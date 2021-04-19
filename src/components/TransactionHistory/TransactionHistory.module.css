@@ -1,0 +1,28 @@
+table {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    width: 600px;
+    border-collapse: collapse;
+  }
+  th {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 700;
+    background: #00bcd5;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  td {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #939597;
+    border: 3px solid #eaeaea;
+  }
+  
+  tr:nth-child(2n) {
+    background: #e8edff;
+  }
